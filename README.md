@@ -39,8 +39,6 @@ Notebook filenames indicate the purpose of each experiment.
 
 **IBM Quantum Execution**
 
-Some notebooks include IBM Quantum API keys to enable reproducibility of results reported in the paper.
-
 If the runtime quota associated with the provided API keys is exhausted, users may generate their own API key from the IBM Quantum Platform:
 
 https://www.ibm.com/quantum
