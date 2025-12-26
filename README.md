@@ -55,6 +55,3 @@ Simulator-based results are deterministic up to random seed initialization.
 
 
 Citation details will be added after publication.
-
-Contact:
-bhomic.mcs21.du@gmail.com
