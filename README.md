@@ -53,18 +53,25 @@ Minor variations may be observed when executing on real quantum hardware due to 
 
 Simulator-based results are deterministic up to random seed initialization.
 
-**Reproducibility and Implementation Details**
-To ensure full reproducibility of the experimental results, we provide a public repository containing the complete implementation of the proposed algorithm along with the datasets used in this study. The repository also includes scripts for preprocessing, training, evaluation, and result generation.
+## Reproducibility
 
-All experiments were conducted using a fixed set of optimal hyperparameters, determined empirically and kept constant across all datasets to ensure fair comparison. The optimal test parameters are summarized below.
+To ensure full reproducibility of the results reported in this work, this repository provides the complete implementation of the proposed algorithm along with all datasets used in the experiments. The codebase includes scripts for data preprocessing, model execution, evaluation, and result generation.
 
-**Optimal Test Parameters:**
-Error Rate coefficient (ALPHA): 0.7
-Feature Count Coefficient (BETA): 0.3
-Mutation Probability (mu): 0.001
-No of shots (num_shots) = 4096
-Optimization Level for Transpilation (optimization_level) = 3
-No of generations (max_gen) = 10
-Population Initialization angle (delta)  = pi/8
+All experiments were conducted using a fixed set of empirically determined hyperparameters. These parameters were kept constant across all datasets to ensure fair and consistent comparison.
+
+### Optimal Test Parameters
+
+| Parameter | Description | Value |
+|----------|------------|-------|
+| **α (ALPHA)** | Error rate coefficient | 0.7 |
+| **β (BETA)** | Feature count coefficient | 0.3 |
+| **μ (mu)** | Mutation probability | 0.001 |
+| **num_shots** | Number of quantum measurement shots | 4096 |
+| **optimization_level** | Transpilation optimization level | 3 |
+| **max_gen** | Maximum number of generations | 10 |
+| **δ (delta)** | Population initialization angle | π / 8 |
+
+These parameter settings were used consistently for all experiments unless stated otherwise.
+
 
 Citation details will be added after publication.
