@@ -74,4 +74,17 @@ All experiments were conducted using a fixed set of empirically determined hyper
 These parameter settings were used consistently for all experiments unless stated otherwise.
 
 
-Citation details will be added after publication.
+Cite As:
+@article{KAUSHIK2026114965,
+title = {QEFS: Quantum evolutionary feature selector for a real quantum computer},
+journal = {Applied Soft Computing},
+volume = {194},
+pages = {114965},
+year = {2026},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2026.114965},
+url = {https://www.sciencedirect.com/science/article/pii/S1568494626004138},
+author = {Bhomic Kaushik and Ankit Rajpal and Naveen Kumar},
+keywords = {Quantum evolutionary feature selector (QEFS), Quantum gates (Hadamard Ry CNOT), IBM quantum experience, UCI machine learning repository, Quantum machine learning (QML)},
+abstract = {Feature selection is a key problem in many machine learning applications. Wrapper-based feature selection algorithms help select a feature subset that optimally enhances the performance of a specific learning algorithm. However, these algorithms are highly resource-intensive, as considering all subsets of n features would require examining 2n combinations, which is a computationally infeasible task using classical computation. In contrast, quantum computing offers a more efficient representation: the entire space of feature subsets, of size |P|=2n, can be encoded using only log2⁡|P| qubits, enabling compact probabilistic representation and implicit exploration of the search space, compared to the |P| classical bits required by classical methods. Motivated by the expressive power of quantum computing, in this paper, we propose a quantum evolutionary feature selector (QEFS) and evaluate its performance on ibm_brisbane, which has been made available to the scientific community under the IBM Quantum Experience initiative. Rigorous experimentation shows that the proposed QEFS achieves accuracy comparable to that of state-of-the-art evolutionary algorithms. We demonstrate that QEFS employs a constant-depth quantum circuit, representing a significant advancement over classical feature selection approaches. Furthermore, QEFS exhibits strong robustness on real quantum hardware through effective error mitigation, achieving stable performance across multiple runs, minimal probability drift between simulator and QPU executions, and consistent behavior under varying parameter settings, as corroborated by the sensitivity analysis. The implementation of the proposed QEFS is publicly available at: https://github.com/Bhomic-OGJ/QEFS.}
+}
